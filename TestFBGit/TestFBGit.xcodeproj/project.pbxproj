@@ -21,6 +21,8 @@
 		1398CC4B1940225400B2AF90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1398CC2D1940225400B2AF90 /* UIKit.framework */; };
 		1398CC531940225400B2AF90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1398CC511940225400B2AF90 /* InfoPlist.strings */; };
 		1398CC551940225400B2AF90 /* TestFBGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1398CC541940225400B2AF90 /* TestFBGitTests.m */; };
+		1398CC61194022C500B2AF90 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1398CC5F194022C500B2AF90 /* FirstViewController.m */; };
+		1398CC62194022C500B2AF90 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1398CC60194022C500B2AF90 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		1398CC501940225400B2AF90 /* TestFBGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestFBGitTests-Info.plist"; sourceTree = "<group>"; };
 		1398CC521940225400B2AF90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1398CC541940225400B2AF90 /* TestFBGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFBGitTests.m; sourceTree = "<group>"; };
+		1398CC5E194022C500B2AF90 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1398CC5F194022C500B2AF90 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1398CC60194022C500B2AF90 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				1398CC3B1940225400B2AF90 /* Main.storyboard */,
 				1398CC3E1940225400B2AF90 /* ViewController.h */,
 				1398CC3F1940225400B2AF90 /* ViewController.m */,
+				1398CC5E194022C500B2AF90 /* FirstViewController.h */,
+				1398CC5F194022C500B2AF90 /* FirstViewController.m */,
+				1398CC60194022C500B2AF90 /* FirstViewController.xib */,
 				1398CC411940225400B2AF90 /* Images.xcassets */,
 				1398CC301940225400B2AF90 /* Supporting Files */,
 			);
@@ -231,6 +239,7 @@
 				1398CC421940225400B2AF90 /* Images.xcassets in Resources */,
 				1398CC341940225400B2AF90 /* InfoPlist.strings in Resources */,
 				1398CC3D1940225400B2AF90 /* Main.storyboard in Resources */,
+				1398CC62194022C500B2AF90 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +261,7 @@
 				1398CC401940225400B2AF90 /* ViewController.m in Sources */,
 				1398CC3A1940225400B2AF90 /* AppDelegate.m in Sources */,
 				1398CC361940225400B2AF90 /* main.m in Sources */,
+				1398CC61194022C500B2AF90 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
